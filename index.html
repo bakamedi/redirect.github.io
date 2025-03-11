@@ -23,7 +23,8 @@
             font-size: 16px;
             border-radius: 5px;
             text-decoration: none;
-            margin: 10px;
+            display: inline-block;
+            margin: 15px; /* Más espacio entre botones */
         }
 
         .button:hover {
@@ -36,11 +37,15 @@
     <h1>Prueba de Enlaces a la App</h1>
     <p>Haz clic en un botón para intentar abrir la app:</p>
 
-    <!-- Botón para probar el Deep Link -->
-    <a href="flutterapp4://return" class="button" target="_blank">Probar Deep Link (flutterapp4://)</a>
-    <a href="tfpappmobile://return" class="button" target="_blank">Probar Deep Link FP (tfpappmobile://)</a>
-    <a href="tfpapp://return" class="button" target="_blank">Probar Deep Link FP (tfpapp://)</a>
-    
+    <div>
+        <a href="flutterapp4://return" class="button" target="_blank">Probar Deep Link (flutterapp4://)</a>
+    </div>
+    <div>
+        <a href="tfpappmobile://return" class="button" target="_blank">Probar Deep Link FP (tfpappmobile://)</a>
+    </div>
+    <div>
+        <a href="tfpapp://return" class="button" target="_blank">Probar Deep Link FP (tfpapp://)</a>
+    </div>
 
 </body>
 </html>
